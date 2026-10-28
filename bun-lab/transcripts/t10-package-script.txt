@@ -1,0 +1,21 @@
+$ bun run typecheck
+$ bun check
+wait.ts(1,16): error TS7016: Could not find a declaration file for module 'ms'. 'bun-lab/demo-app/node_modules/ms/index.js' implicitly has an 'any' type.
+  Try `bun add -d @types/ms` if it exists or add a new declaration (.d.ts) file containing `declare module 'ms';`
+Found 1 error in 1 file, checked 5 files [480.75ms]
+error: script "typecheck" exited with code 1
+exit code: 1
+$ bun add -d @types/ms
+bun add v1.4.4 (38afee6c8)
+Resolving dependencies
+Resolved, downloaded and extracted [4]
+Saved lockfile
+
+installed @types/ms@2.1.0
+
+1 package installed [1.93s]
+
+$ bun run typecheck
+$ bun check
+✓ No type errors in 5 files [231.81ms]
+exit code: 0

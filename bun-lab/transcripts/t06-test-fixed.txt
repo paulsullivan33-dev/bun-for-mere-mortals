@@ -1,0 +1,13 @@
+$ bun test
+bun test v1.4.4 (38afee6c8)
+
+words.test.ts:
+(pass) add puts two numbers together [0.09ms]
+(pass) shout uppercases and adds a bang [0.12ms]
+(pass) add handles zero [0.01ms]
+
+ 3 pass
+ 0 fail
+ 3 expect() calls
+Ran 3 tests across 1 file. [202.00ms]
+exit code: 0

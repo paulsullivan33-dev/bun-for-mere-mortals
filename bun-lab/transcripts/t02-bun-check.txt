@@ -1,0 +1,6 @@
+$ bun check type-error.ts
+type-error.ts(12,27): error TS2322: Type 'number' is not assignable to type 'string'.
+type-error.ts(13,1): error TS2584: Cannot find name 'console'. Do you need to change your target library? Try changing the 'lib' compiler option to include 'dom'.
+note: Bun's type definitions (console, fetch, Bun, bun:test) are not installed. Run: bun add -d @types/bun
+Found 2 errors in 1 file, checked 1 file [101.51ms]
+exit code: 1

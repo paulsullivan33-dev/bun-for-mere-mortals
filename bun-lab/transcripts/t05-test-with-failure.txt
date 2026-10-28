@@ -1,0 +1,26 @@
+$ bun test
+bun test v1.4.4 (38afee6c8)
+
+words.test.ts:
+(pass) add puts two numbers together [0.08ms]
+(pass) shout uppercases and adds a bang [0.13ms]
+ 8 | test("shout uppercases and adds a bang", () => {
+ 9 |   expect(shout("hello")).toBe("HELLO!");
+10 | });
+11 | 
+12 | test("add handles zero", () => {
+13 |   expect(add(0, 0)).toBe(1); // deliberately wrong: this one fails
+                         ^
+error: expect(received).toBe(expected)
+
+Expected: 1
+Received: 0
+
+      at <anonymous> (bun-lab/demo-app/words.test.ts:13:21)
+(fail) add handles zero [4.15ms]
+
+ 2 pass
+ 1 fail
+ 3 expect() calls
+Ran 3 tests across 1 file. [32.00ms]
+exit code: 1

@@ -1,0 +1,53 @@
+$ bun init -y
+ + .gitignore
+ + index.ts
+ + tsconfig.json (for bun check and editor autocomplete)
+ + README.md
+
+To get started, run:
+
+    bun run index.ts
+
+To type check, run:
+
+    bun check
+
+bun install v1.4.4 (38afee6c8)
+Resolving dependencies
+Resolved, downloaded and extracted [63]
+Saved lockfile
+
++ @types/bun@1.4.4
++ typescript@7.0.2
+
+6 packages installed [19.97s]
+
+exit code: 0
+
+$ ls -a
+.
+..
+.gitignore
+README.md
+bun.lock
+index.ts
+node_modules
+package.json
+tsconfig.json
+
+$ cat package.json
+{
+  "name": "demo-app",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "typecheck": "bun check"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^7"
+  }
+}

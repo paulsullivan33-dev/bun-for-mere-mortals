@@ -1,0 +1,23 @@
+$ bun build ./wait.ts --outdir ./dist
+Bundled 2 modules in 82ms
+
+  wait.js  4.11 KB  (entry point)
+
+exit code: 0
+
+$ ls -la dist
+total 8
+drwxr-x--- 1 root root   14 Oct 28 17:31 .
+drwxrwx--- 1 root root  208 Oct 28 17:31 ..
+-rw-r----- 1 root root 4109 Oct 28 17:31 wait.js
+
+$ head -5 dist/wait.js
+var __create = Object.create;
+var __getProtoOf = Object.getPrototypeOf;
+var __defProp = Object.defineProperty;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+
+$ node dist/wait.js
+Two days is 172800000 milliseconds.
+Half of that is 1 day.

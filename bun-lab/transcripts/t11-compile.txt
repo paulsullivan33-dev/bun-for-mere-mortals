@@ -1,0 +1,11 @@
+$ bun build ./hello.js --compile --outfile ./hello-bin
+ [163ms]  bundle  1 modules
+[1.853s] compile  ./hello-bin
+exit code: 0
+
+$ ls -la hello-bin
+-rwxr-xr-x 1 root root 109123760 Oct 28 17:32 hello-bin
+
+$ ./hello-bin
+Hello, reader!
+The numbers 1 to 4 add up to 10.

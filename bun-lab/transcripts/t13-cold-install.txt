@@ -1,0 +1,19 @@
+$ rm -rf node_modules
+$ bun install
+bun install v1.4.4 (38afee6c8)
+
++ @types/bun@1.4.4
++ @types/ms@2.1.0
++ ms@2.1.3
++ typescript@7.0.2
+
+8 packages installed [219.00ms]
+exit code: 0
+
+$ ls node_modules
+@types
+@typescript
+bun-types
+ms
+typescript
+undici-types

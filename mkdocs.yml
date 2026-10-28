@@ -1,0 +1,28 @@
+site_name: Bun for Mere Mortals
+site_description: An all-in-one JavaScript toolkit in a single binary. Running JavaScript and TypeScript files directly, installing packages, testing and bundling, and serving a small web app, with the speed claims measured and the limits stated plainly.
+site_url: https://paulsullivan33-dev.github.io/bun-for-mere-mortals/
+copyright: 'Part of <a href="https://paulsullivan33-dev.github.io/mere-mortals/">For Mere Mortals</a> · Text <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, code MIT'
+
+# Guides live at the repo root (nice for GitHub browsing).
+# The deploy workflow copies them into docs/ before building.
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - What Bun Is: what-bun-is.md
+  - The Moving Parts: the-moving-parts.md
+  - Installing Bun: installing-bun.md
+  - Running JavaScript and TypeScript: running-javascript-and-typescript.md
+  - Starting a Project: starting-a-project.md
+  - Packages: packages.md
+  - Testing: testing.md
+  - Bundling and Building: bundling-and-building.md
+  - A Small Web Server: a-small-web-server.md
+  - Speed, Measured Honestly: speed-measured-honestly.md
+  - Recipes: recipes.md
+  - The Neighbours: the-neighbours.md
+  - Limits: limits.md
+  - Troubleshooting: troubleshooting.md
+  - Glossary: glossary.md
+  - Writing Criteria: criteria.md

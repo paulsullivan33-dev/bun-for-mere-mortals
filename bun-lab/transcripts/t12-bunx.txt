@@ -1,0 +1,13 @@
+$ bunx cowsay "Bun says hello"
+Resolving dependencies
+Resolved, downloaded and extracted [124]
+Saved lockfile
+ ________________
+< Bun says hello >
+ ----------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+exit code: 0

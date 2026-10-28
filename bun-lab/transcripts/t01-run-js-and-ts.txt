@@ -1,0 +1,10 @@
+$ bun run hello.js
+Hello, reader!
+The numbers 1 to 4 add up to 10.
+
+$ bun run greet.ts
+Hello, Ada! That is greeting number 1.
+
+$ bun run type-error.ts
+Hello, 42! That is greeting number 1.
+exit code: 0

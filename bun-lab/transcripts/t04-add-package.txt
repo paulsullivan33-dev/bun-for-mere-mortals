@@ -1,0 +1,23 @@
+$ bun run index.ts
+Hello via Bun!
+
+$ bun add ms
+bun add v1.4.4 (38afee6c8)
+Resolving dependencies
+Resolved, downloaded and extracted [4]
+Saved lockfile
+
+installed ms@2.1.3
+
+1 package installed [2.40s]
+exit code: 0
+
+$ cat package.json (dependencies section)
+  "dependencies": {
+    "ms": "^2.1.3"
+  }
+}
+
+$ bun run wait.ts
+Two days is 172800000 milliseconds.
+Half of that is 1 day.
